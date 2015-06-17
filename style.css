@@ -1,0 +1,99 @@
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline;}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block;}
+body {line-height: 1; font-family: "helvetica", "arial", sans-serif; background: url("i/bkg.png");}
+h1, h2, h3, h4, h5, h6, .post-comm, footer, .widgets h2 {font-family: 'Lato', sans-serif;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,q:before, q:after {content: '';content: none;}
+table {border-collapse: collapse;border-spacing: 0;}
+
+body {
+  font-size: 16px;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  background: #424242;
+}
+
+.full {
+  padding: 20px;
+}
+
+.screen {
+  background: #dfdede;
+}
+
+.lcd {
+  border-radius: 50px;
+  min-height: 400px;
+  padding: 2em;
+}
+
+.screen-content {
+  padding: 2%;
+  background: #424242;
+  min-height: 370px;
+  border-radius: 25px;
+}
+
+.screen-content span {
+  display: inline-block;
+  border-radius: 20px;
+  height: 1.5em;
+  margin: 0.5em;
+}
+
+span.green {
+  background: #b1ca6f;
+}
+
+span.orange {
+  background: #cd772c;
+}
+
+span.grey {
+  background: #d3d3d3;
+}
+
+span.violet {
+  background: #9f617a;
+}
+
+span.small {
+  width: 5%;
+}
+
+span.medium {
+  width: 15%;
+}
+
+span.mediumsmall {
+  width: 17%;
+}
+
+span.large {
+  width: 25%;
+}
+
+span.extralarge {
+  width: 50%;
+}
+
+.foot {
+  margin: 0 auto;
+  width: 25%;
+  height: 100px;
+}
+
+.base {
+  margin: 0 auto;
+  border-bottom:100px solid #dfdede;
+	border-left: 80px solid transparent;
+	border-right: 80px solid transparent;
+	height: 0;
+	width: 75%;
+  background: none;
+}
